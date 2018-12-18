@@ -1,10 +1,7 @@
 import React, { Component } from 'react';
 import { Deck, Slide } from 'spectacle';
 import createTheme from 'spectacle/lib/themes/default';
-import Introduction from './introduction';
-import WhatDoYouNeed from './what-do-you-need';
-import HeadingTags from './html/heading-tags';
-import ParagraphTags from './html/paragraph-tag';
+import * as fromSlides from './slides';
 import 'normalize.css';
 
 const theme = createTheme({
@@ -22,16 +19,31 @@ export default class Presentation extends Component {
     return (
       <Deck transition={["zoom", "slide"]} transitionDuration={500} theme={theme}>
         <Slide transition={["zoom"]} bgColor="primary">
-          <Introduction/>
+          <fromSlides.Introduction/>
         </Slide>
         <Slide transition={["zoom"]} bgColor="primary">
-          <WhatDoYouNeed/>
+          <fromSlides.WhatDoYouNeed/>
         </Slide>
         <Slide transition={["zoom"]} bgColor="primary">
-          <HeadingTags/>
+          <fromSlides.Configuration/>
         </Slide>
         <Slide transition={["zoom"]} bgColor="primary">
-          <ParagraphTags/>
+          <fromSlides.Launch/>
+        </Slide>
+        <Slide transition={["zoom"]} bgColor="primary">
+          <fromSlides.InstallPlugin/>
+        </Slide>
+        <Slide transition={["zoom"]} bgColor="primary">
+          <fromSlides.SetupPlugin/>
+        </Slide>
+        <Slide transition={["zoom"]} bgColor="primary">
+          <fromSlides.EnableServer/>
+        </Slide>
+        <Slide transition={["zoom"]} bgColor="primary">
+          <fromSlides.InstallLoader/>
+        </Slide>
+        <Slide transition={["zoom"]} bgColor="primary">
+          <fromSlides.SetupLoader/>
         </Slide>
       </Deck>
     );
