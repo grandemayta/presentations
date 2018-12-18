@@ -1,4 +1,4 @@
-# Html Css & Javascript Presentation
+# Html, Css & Javascript Presentation
 
 ## Contents
 
@@ -20,14 +20,6 @@ or
 ```bash
 npm install
 ```
-if you're about that life.
-
-Next, run 
-```bash
-rm -R .git
-```
-to remove the existing version control.
-
 Then, to start up the local server, run
 ```bash
 npm start
