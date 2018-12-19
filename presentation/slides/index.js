@@ -4,9 +4,11 @@ import Configuration from './configuration';
 import InstallPlugin from './install-plugin';
 import SetupPlugin from './setup-plugin';
 import Launch from './launch';
-import EnableServer from './enable-server'
-import InstallLoader from './install-loader'
-import SetupLoader from './setup-loader'
+import EnableServer from './enable-server';
+import InstallLoader from './install-loader';
+import SetupLoader from './setup-loader';
+import SetupCodeSplitting from './setup-code-splitting';
+import EnableCodeSplitting from './enable-code-splitting';
 
 export {
     Introduction,
@@ -17,5 +19,7 @@ export {
     Launch,
     EnableServer,
     InstallLoader,
-    SetupLoader
+    SetupLoader,
+    SetupCodeSplitting,
+    EnableCodeSplitting
 };

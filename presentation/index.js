@@ -45,6 +45,12 @@ export default class Presentation extends Component {
         <Slide transition={["zoom"]} bgColor="primary">
           <fromSlides.SetupLoader/>
         </Slide>
+        <Slide transition={["zoom"]} bgColor="primary">
+          <fromSlides.SetupCodeSplitting/>
+        </Slide>
+        <Slide transition={["zoom"]} bgColor="primary">
+          <fromSlides.EnableCodeSplitting/>
+        </Slide>
       </Deck>
     );
   }
