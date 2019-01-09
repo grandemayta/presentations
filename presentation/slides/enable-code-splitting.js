@@ -18,7 +18,7 @@ export default class EnableCodeSplitting extends Component {
           <Heading size={4} caps lineHeight={1} textColor="secondary">
             Enable Code Splitting
           </Heading>
-          <CodePane lang="html" textSize={26} source={this.template()}/>
+          <CodePane lang="js" textSize={26} source={this.template()}/>
         </div>
     );
   }

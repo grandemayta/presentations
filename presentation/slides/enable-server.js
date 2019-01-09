@@ -4,11 +4,17 @@ import { Heading, CodePane } from "spectacle";
 export default class EnableServer extends Component {
   template() {
     return `
+    devServer: {
+      contentBase: './dist',
+      port: 3002,
+      open: true
+    } 
+                .
+                .
+                .
+                
     "scripts": {
       "live": "webpack-dev-server --mode=development",
-         .
-         .
-         .
     `;
   }
 

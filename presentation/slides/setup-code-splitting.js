@@ -5,9 +5,11 @@ export default class SetupCodeSplitting extends Component {
   template() {
     return `
       npm i -D @babel/plugin-syntax-dynamic-import
+
                          .
                          .
                          .
+                         
       options: {
         plugins: ['@babel/plugin-syntax-dynamic-import']
       }

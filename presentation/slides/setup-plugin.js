@@ -6,7 +6,7 @@ export default class SetupPlugin extends Component {
     return `
       plugins: [
         new HtmlWebpackPlugin({
-          template: ./src/index.html',
+          template: './src/index.html',
           filename: 'index.html'
         })
       ]
@@ -19,7 +19,7 @@ export default class SetupPlugin extends Component {
           <Heading size={3} caps lineHeight={1} textColor="secondary">
             Setup plugin
           </Heading>
-          <CodePane lang="html" textSize={30} source={this.template()}/>
+          <CodePane lang="js" textSize={30} source={this.template()}/>
         </div>
     );
   }

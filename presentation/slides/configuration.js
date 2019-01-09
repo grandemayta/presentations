@@ -19,7 +19,7 @@ export default class Configuration extends Component {
           <Heading size={3} caps lineHeight={1} textColor="secondary">
             Configuration
           </Heading>
-          <CodePane lang="html" textSize={32} source={this.template()}/>
+          <CodePane lang="js" textSize={32} source={this.template()}/>
         </div>
     );
   }
