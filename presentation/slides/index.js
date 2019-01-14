@@ -9,8 +9,12 @@ import InstallLoader from './install-loader';
 import SetupLoader from './setup-loader';
 import SetupCodeSplitting from './setup-code-splitting';
 import EnableCodeSplitting from './enable-code-splitting';
+import InstallWebpackMerge from './install-webpack-merge';
+import SetupWebpackMerge from './setup-webpack-merge';
+import InstallReact from './install-react';
+import SetupReact from './setup-react';
 
-export {
+export default [
     Introduction,
     WhatDoYouNeed,
     Configuration,
@@ -21,5 +25,9 @@ export {
     InstallLoader,
     SetupLoader,
     SetupCodeSplitting,
-    EnableCodeSplitting
-};
+    EnableCodeSplitting,
+    InstallWebpackMerge,
+    SetupWebpackMerge,
+    InstallReact,
+    SetupReact
+];
