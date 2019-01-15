@@ -13,7 +13,7 @@ export default class WhatDoYouNeed extends Component {
   render() {
     return (
         <div>
-          <Heading size={3} lineHeight={1} textColor="secondary" margin="0 0 40px 0">
+          <Heading size={3} caps lineHeight={1} textColor="secondary">
             What do you Need?
           </Heading>
           <CodePane lang="js" textSize={32} source={this.template()} />

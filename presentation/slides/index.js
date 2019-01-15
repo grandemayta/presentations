@@ -13,6 +13,8 @@ import InstallWebpackMerge from './install-webpack-merge';
 import SetupWebpackMerge from './setup-webpack-merge';
 import InstallReact from './install-react';
 import SetupReact from './setup-react';
+import PerformanceBudget from './performance-budget';
+import UseAlias from './use-alias';
 
 export default [
     Introduction,
@@ -29,5 +31,7 @@ export default [
     InstallWebpackMerge,
     SetupWebpackMerge,
     InstallReact,
-    SetupReact
+    SetupReact,
+    PerformanceBudget,
+    UseAlias
 ];
