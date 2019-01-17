@@ -15,6 +15,11 @@ import InstallReact from './install-react';
 import SetupReact from './setup-react';
 import PerformanceBudget from './performance-budget';
 import UseAlias from './use-alias';
+import InstallAnalyzer from './install-analyzer';
+import SetupAnalyzer from './setup-analyzer';
+import EnableBundleVendor from './enable-vendor';
+import InstallCleanBuild from './install-clean-build';
+import SetupCleanBuild from './setup-clean-build';
 
 export default [
     Introduction,
@@ -33,5 +38,10 @@ export default [
     InstallReact,
     SetupReact,
     PerformanceBudget,
-    UseAlias
+    UseAlias,
+    InstallAnalyzer,
+    SetupAnalyzer,
+    EnableBundleVendor,
+    InstallCleanBuild,
+    SetupCleanBuild
 ];
