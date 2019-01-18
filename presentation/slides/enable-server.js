@@ -14,7 +14,7 @@ export default class EnableServer extends Component {
                 .
                 
     "scripts": {
-      "live": "webpack-dev-server --mode=development",
+      "start": "webpack-dev-server --mode=development",
     `;
   }
 

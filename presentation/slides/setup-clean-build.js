@@ -8,7 +8,9 @@ export default class SetupCleanBuild extends Component {
                               .
                               .
                               .
-      new CleanWebpackPlugin([dist]),
+      plugins: [
+        new CleanWebpackPlugin([dist])
+      ]
     `;
   }
 

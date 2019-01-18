@@ -6,7 +6,6 @@ export default class WhatDoYouNeed extends Component {
     return `
       npm i -D webpack
       npm i -D webpack-cli
-      npm i -D webpack-dev-server
       npm i -D path
     `;
   }

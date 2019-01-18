@@ -1,10 +1,13 @@
 import Introduction from './introduction';
+import Concepts from './concepts';
 import WhatDoYouNeed from './what-do-you-need';
 import Configuration from './configuration';
 import InstallPlugin from './install-plugin';
 import SetupPlugin from './setup-plugin';
 import Launch from './launch';
 import EnableServer from './enable-server';
+import InstallCleanBuild from './install-clean-build';
+import SetupCleanBuild from './setup-clean-build';
 import InstallLoader from './install-loader';
 import SetupLoader from './setup-loader';
 import SetupCodeSplitting from './setup-code-splitting';
@@ -18,30 +21,37 @@ import UseAlias from './use-alias';
 import InstallAnalyzer from './install-analyzer';
 import SetupAnalyzer from './setup-analyzer';
 import EnableBundleVendor from './enable-vendor';
-import InstallCleanBuild from './install-clean-build';
-import SetupCleanBuild from './setup-clean-build';
+import InstallServer from './install-server';
+import InstallSass from './install-sass';
+import SetupSass from './setup-sass';
+import SetupSassForProd from './setup-sass-for-prod';
 
 export default [
     Introduction,
+    Concepts,
     WhatDoYouNeed,
     Configuration,
+    Launch,
+    InstallCleanBuild,
+    SetupCleanBuild,
+    InstallServer,
+    EnableServer,
     InstallPlugin,
     SetupPlugin,
-    Launch,
-    EnableServer,
     InstallLoader,
     SetupLoader,
-    SetupCodeSplitting,
-    EnableCodeSplitting,
     InstallWebpackMerge,
     SetupWebpackMerge,
+    InstallSass,
+    SetupSass,
+    SetupSassForProd,
+    SetupCodeSplitting,
+    EnableCodeSplitting,
     InstallReact,
     SetupReact,
     PerformanceBudget,
     UseAlias,
     InstallAnalyzer,
     SetupAnalyzer,
-    EnableBundleVendor,
-    InstallCleanBuild,
-    SetupCleanBuild
+    EnableBundleVendor
 ];

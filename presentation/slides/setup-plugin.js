@@ -4,12 +4,10 @@ import { Heading, CodePane } from "spectacle";
 export default class SetupPlugin extends Component {
   template() {
     return `
-      plugins: [
-        new HtmlWebpackPlugin({
-          template: './src/index.html',
-          filename: 'index.html'
-        })
-      ]
+      new HtmlWebpackPlugin({
+        template: './src/index.html',
+        filename: 'index.html'
+      })
     `;
   }
 
